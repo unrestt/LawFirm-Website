@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kancelaria Prawna</title>
+    <link rel="shortcut icon" href="assets/images/test_logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/header-top.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/whyus.css">
+    <link rel="stylesheet" href="assets/css/services.css">
+    <link rel="stylesheet" href="assets/css/team.css">
+    <link rel="stylesheet" href="assets/css/faq.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <section id="header-top-section">
+        <div class="container">
+            <div class="info-top-container">
+                <i class="fa-solid fa-phone"></i>
+                <p>(+48) 123 456 789</p>
+            </div>
+            <div class="info-top-container">
+                <p>Pon. - Sob. 9.00 - 18.00 | </p>
+                <i class="fa-regular fa-envelope"></i>
+                <p>email@email.com</p>
+            </div>
+        </div>
+    </section>
+    <header>
+        <div class="container">
+            <img src="assets/images/test_logo.png" alt="">
+
+            <nav>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul id="nav-ul">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about-section">O nas</a>
+                    </li>
+                    <li>
+                        <a href="#services-section">Usługi</a>
+                    </li>
+                    <li>
+                        <a href="#team-section">Zespół</a>
+                    </li>
+                    <li>
+                        <a href="#faq-section">Pomoc</a>
+                    </li>
+                    <li>
+                        <a href="#contact-section">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+           <button>Skonsultuj się</button>
+        </div>
+    </header>
+    <section id="banner-section">
+        <div class="container">
+            <div class="banner-upper-text">
+                <h1>Kancelaria Adwokacka<br><span>
+                        Jan Kowalski
+                    </span></h1>
+                <p>Twoje bezpieczeństwo prawne to nasz priorytet</p>
+            </div>
+            <div class="banner-box">
+                <button>Umów się na konsultację</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-section">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-text">
+                    <h2 class="section-title">O Kancelarii</h2>
+                    <div class="underline"></div>
+                    <p class="intro-text">
+                        Nasza kancelaria to zespół doświadczonych prawników, których misją jest dostarczanie
+                        przejrzystych i skutecznych rozwiązań prawnych. Działamy z pasją, etyką i pełnym zaangażowaniem
+                        w sprawy naszych klientów. Stawiamy na indywidualne podejście, dokładnie analizując każdą
+                        sytuację, aby zapewnić optymalne wsparcie prawne. Dzięki wieloletniemu doświadczeniu oraz
+                        ciągłemu doskonaleniu wiedzy, gwarantujemy profesjonalizm i pełne zaufanie na każdym etapie
+                        współpracy.
+                    </p>
+                    <ul class="about-list">
+                        <li><span>✔</span> Ponad 15 lat doświadczenia</li>
+                        <li><span>✔</span> Indywidualne podejście do klienta</li>
+                        <li><span>✔</span> Skuteczność poparta opiniami</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/about.webp" alt="Kancelaria" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="whyus-section">
+        <div class="container">
+            <h2 class="section-title">Dlaczego my?</h2>
+            <div class="underline"></div>
+            <div class="reasons-flex">
+                <div class="reason-item">
+                    <i class="fa-solid fa-balance-scale"></i>
+                    <h3>Profesjonalizm</h3>
+                    <p>Zapewniamy najwyższy standard usług prawnych oparty na doświadczeniu i wiedzy.</p>
+                </div>
+                <div class="reason-item">
+                    <i class="fa-solid fa-user-shield"></i>
+                    <h3>Pełne zaangażowanie</h3>
+                    <p>Twoja sprawa jest dla nas priorytetem — działamy z pasją i troską o każdy szczegół.</p>
+                </div>
+                <div class="reason-item">
+                    <i class="fa-solid fa-handshake"></i>
+                    <h3>Zaufanie</h3>
+                    <p>Budujemy długotrwałe relacje oparte na uczciwości i transparentności.</p>
+                </div>
+                <div class="reason-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <h3>Terminowość</h3>
+                    <p>Szanujemy Twój czas — realizujemy zadania zgodnie z ustalonym harmonogramem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services-section">
+        <div class="container">
+            <h2 class="section-title">Nasze usługi</h2>
+            <div class="underline"></div>
+            <div class="services-list">
+                <div class="service-row">
+                    <i class="fa-solid fa-gavel"></i>
+                    <div class="service-text">
+                        <h3>Prawo cywilne</h3>
+                        <p>Pomoc w sprawach związanych z umowami, odszkodowaniami, prawem własności oraz innymi
+                            kwestiami cywilnymi.</p>
+                    </div>
+                </div>
+                <div class="service-row">
+                    <i class="fa-solid fa-balance-scale"></i>
+                    <div class="service-text">
+                        <h3>Prawo rodzinne</h3>
+                        <p>Wsparcie w sprawach rozwodowych, alimentacyjnych, opieki nad dziećmi oraz podziału majątku.
+                        </p>
+                    </div>
+                </div>
+                <div class="service-row">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <div class="service-text">
+                        <h3>Prawo gospodarcze</h3>
+                        <p>Obsługa prawna przedsiębiorców, zakładanie firm, umowy handlowe oraz reprezentacja przed
+                            sądami.</p>
+                    </div>
+                </div>
+                <div class="service-row">
+                    <i class="fa-solid fa-shield-alt"></i>
+                    <div class="service-text">
+                        <h3>Prawo karne</h3>
+                        <p>Obrona oraz reprezentacja klientów w sprawach karnych na każdym etapie postępowania.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team-section">
+        <div class="container">
+            <h2 class="section-title">Nasz zespół</h2>
+            <div class="underline"></div>
+            <div class="team-cards">
+                <div class="team-member">
+                    <div class="photo">
+                        <img src="assets/images/prawnik1.jpg" alt="Jan Kowalski">
+                    </div>
+                    <h3>Jan Kowalski</h3>
+                    <p>Adwokat specjalizujący się w prawie cywilnym z ponad 15-letnim doświadczeniem.</p>
+                </div>
+                <div class="team-member">
+                    <div class="photo">
+                        <img src="assets/images/prawnik2.webp" alt="Anna Nowak">
+                    </div>
+                    <h3>Anna Nowak</h3>
+                    <p>Radca prawny z pasją do prawa rodzinnego i mediacji.</p>
+                </div>
+                <div class="team-member">
+                    <div class="photo">
+                        <img src="assets/images/prawnik3.webp" alt="Piotr Wiśniewski">
+                    </div>
+                    <h3>Piotr Wiśniewski</h3>
+                    <p>Specjalista ds. prawa gospodarczego i obsługi przedsiębiorców.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq-section">
+        <div class="container">
+            <h2 class="section-title">Najczęściej zadawane pytania</h2>
+            <div class="underline"></div>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <p><span>1. </span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><i
+                            class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid incidunt nam deserunt
+                                atque facere expedita, optio quae corporis reprehenderit quam nisi iste soluta ipsa odio
+                                error blanditiis laborum tenetur fuga.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <p><span>2. </span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><i
+                            class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid incidunt nam deserunt
+                                atque facere expedita, optio quae corporis reprehenderit quam nisi iste soluta ipsa odio
+                                error blanditiis laborum tenetur fuga.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <p><span>3. </span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><i
+                            class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid incidunt nam deserunt
+                                atque facere expedita, optio quae corporis reprehenderit quam nisi iste soluta ipsa odio
+                                error blanditiis laborum tenetur fuga.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <p><span>4. </span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><i
+                            class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid incidunt nam deserunt
+                                atque facere expedita, optio quae corporis reprehenderit quam nisi iste soluta ipsa odio
+                                error blanditiis laborum tenetur fuga.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <p><span>5. </span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><i
+                            class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid incidunt nam deserunt
+                                atque facere expedita, optio quae corporis reprehenderit quam nisi iste soluta ipsa odio
+                                error blanditiis laborum tenetur fuga.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <p><span>6. </span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><i
+                            class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid incidunt nam deserunt
+                                atque facere expedita, optio quae corporis reprehenderit quam nisi iste soluta ipsa odio
+                                error blanditiis laborum tenetur fuga.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <p><span>7. </span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p><i
+                            class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid incidunt nam deserunt
+                                atque facere expedita, optio quae corporis reprehenderit quam nisi iste soluta ipsa odio
+                                error blanditiis laborum tenetur fuga.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-section">
+        <div class="container contact-container">
+            <div class="contact-left">
+                <h2 class="section-title">Skontaktuj się z nami</h2>
+                <div class="underline"></div>
+                <form class="contact-form" action="#" method="post">
+                    <input type="text" name="name" placeholder="Imię i nazwisko" required>
+                    <input type="email" name="email" placeholder="Adres e-mail" required>
+                    <textarea name="message" placeholder="Wiadomość" rows="6" required></textarea>
+                    <button type="submit">Wyślij wiadomość</button>
+                </form>
+            </div>
+
+            <div class="contact-right">
+                <div class="contact-info">
+                    <h3>Dane kontaktowe</h3>
+                    <p><strong>Adres:</strong> ul. Przykładowa 12, 00-001 Warszawa</p>
+                    <p><strong>Telefon:</strong> <a href="tel:+48123456789">+48 123 456 789</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:kontakt@kancelaria.pl">kontakt@kancelaria.pl</a></p>
+                </div>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.104707487754!2d21.01222837695339!3d52.2296759797577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc66977f5fbd%3A0x67f94807c3a2a30e!2sWarszawa!5e0!3m2!1spl!2spl!4v1620819731663!5m2!1spl!2spl"
+                        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-containers">
+                <div class="footer-container">
+                    <h3>Menu</h3>
+                    <div class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#about-section">O mnie</a>
+                        <a href="cennik.html">Cennik</a>
+                        <a href="#team-section">Kadra</a>
+                        <a href="#contact-section">Kontakt</a>
+                    </div>
+
+                </div>
+                <div class="footer-container">
+                    <h3>Pomoc</h3>
+                    <div class="footer-links">
+                        <a href="polityka-prywatnosci.html" target="_blank">Polityka prywatności</a>
+                    </div>
+
+                </div>
+                <div class="footer-container" id="footer-container-3">
+                    <h3>Kontakt</h3>
+                    <div class="footer-links" id="contact-footer">
+                        <div class="contact-option">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>(+48) <a href="tel:+48535 779 011">123 456 789</a></p>
+                        </div>
+                        <div class="contact-option">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>mail@gmail.com</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer-container">
+                    <h3>Info</h3>
+                    <div class="footer-links">
+                        <div class="below-footer-last">
+
+                            <p>&copy; Bartosz Kutnik<br>
+                                Wszelkie prawa zastrzeżone</p>
+                            <p>Wykonanie: <a href="https://unrestt.github.io/portfolio/" target="_blank">Bartosz
+                                    Kutnik</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="to-top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <script src="assets/js/faq.js"></script>
+    <script src="assets/js/nav.js"></script>
+    <script src="assets/js/totop.js"></script>
+</body>
+
+</html>

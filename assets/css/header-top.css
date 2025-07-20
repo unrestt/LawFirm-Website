@@ -1,0 +1,24 @@
+section#header-top-section{
+    background-color: var(--color-primary);
+    padding-bottom: initial;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    position: fixed;
+    top: 0;
+}
+section#header-top-section .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.info-top-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.info-top-container i{
+    font-size: 20px;
+}

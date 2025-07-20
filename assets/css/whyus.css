@@ -1,0 +1,50 @@
+.reasons-flex {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.reason-item {
+  text-align: center;
+  flex: 1 1 220px;
+  max-width: 260px;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px rgb(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.reason-item:hover {
+  transform: translateY(-10px);
+}
+
+.reason-item i {
+  font-size: 40px;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+
+.reason-item h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.reason-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .reasons-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .reason-item {
+    max-width: 100%;
+  }
+}
