@@ -5,7 +5,8 @@ section#header-top-section{
     font-size: 14px;
     color: #fff;
     position: fixed;
-    top: 0;
+    top: 0 !important;
+    z-index: 999;
 }
 section#header-top-section .container{
     display: flex;
